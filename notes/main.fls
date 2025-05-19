@@ -1,0 +1,35 @@
+PWD C:\Users\mstra\OneDrive\Documents\UW Madison\Madison 2024-25\ECE 330\notes
+INPUT C:\Users\mstra\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\mstra\OneDrive\Documents\UW Madison\Madison 2024-25\ECE 330\notes\main.tex
+OUTPUT main.log
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+OUTPUT main.pdf
+INPUT C:\Users\mstra\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT main.aux
+INPUT C:\Users\mstra\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\mstra\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\mstra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb

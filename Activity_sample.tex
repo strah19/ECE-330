@@ -1,0 +1,112 @@
+% COMMENT THIS OUT TO HIDE SOLUTIONS
+\def\SHOWSOLUTIONS{}
+
+\documentclass[12pt]{article}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{comment}
+\usepackage{color,graphicx,amsthm,amssymb,amsmath,cite,xspace,setspace}
+\usepackage[small,bf]{caption}
+\usepackage{multicol,multirow}
+\usepackage{algorithm,algorithmic}
+\usepackage{soul}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage{epsf}
+\usepackage{wasysym}
+\usepackage{mdwtab}
+\usepackage{bm}
+\usepackage{verbatimbox}
+\usepackage{framed} % To be able to frame theorems and stuff
+
+
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+
+\usepackage{listings}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=single,
+	aboveskip=3mm,
+	belowskip=3mm,
+	basicstyle={\ttfamily},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	tabsize=3
+}
+
+
+% solutions
+\newenvironment{solution}{\vspace{2mm}\color{blue}\textbf{Solution: }}{\color{black}}
+\ifdefined\SHOWSOLUTIONS\else\excludecomment{solution}\fi
+
+% define the type of list to use
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate,1]{\bfseries 1., itemsep=6mm}
+\setlist[enumerate,2]{\bfseries a), itemsep=3mm}
+
+\def\wl{\par \vspace{\baselineskip}} 
+\def \bx{\boldsymbol{x}}
+\def \bw{\boldsymbol{w}}
+\def \bnu{\boldsymbol{\nu}}
+\def \by{\boldsymbol{y}}
+\def \bz{\boldsymbol{z}}
+\def \bu{\boldsymbol{u}}
+\def \bv{\boldsymbol{v}}
+\def \bb{\boldsymbol{b}}
+\def \bg{\boldsymbol{g}}
+\def \ba{\boldsymbol{a}}
+\def \be{\boldsymbol{e}}
+\def \bA{\boldsymbol{A}}
+\def\bU{\boldsymbol{U}}
+\def \bB{\boldsymbol{B}}
+\def \bC{\boldsymbol{C}}
+\def \bX{\boldsymbol{X}}
+\def \bT{\boldsymbol{T}}
+\def \bP{\boldsymbol{P}}
+\def \bV{\boldsymbol{V}}
+\def \bE{\boldsymbol{E}}
+\def \bS{\boldsymbol{S}}
+\def \bSigma{\boldsymbol{\Sigma}}
+\def \bI{\boldsymbol{I}}
+
+\def\R{{\mathbb R}}
+\def\E{{\mathbb E}}
+\def\P{{\mathbb P}}
+\def \X{{\cal X}}
+\def \Y{{\cal Y}}
+
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\Sign}{sign}
+ 
+
+\usepackage{fullpage}
+
+% Header and footer
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\cfoot{\thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+\begin{document}
+\begin{center}
+{\large ECE 330: Signals \& Systems  -  Activity 2}
+\mbox{ }\\
+\mbox{ }\\
+\end{center}
+
+%\noindent \emph{Note: Please include the names of all the classmates with whom you have collaborated on this activity in your submission.} 
+
+\begin{enumerate}[\qquad 1)]
+
+\item First Item
+
+\end{enumerate}
+\end{document}

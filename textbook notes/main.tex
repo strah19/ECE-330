@@ -1,0 +1,48 @@
+\documentclass[12pt, openany]{book}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref}
+\usepackage{xcolor}
+\usepackage{derivative}
+
+\graphicspath{images/}
+
+% Define Theorem, Lemma, Definition Environments
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Custom Commands
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\title{\textbf{Linear Systems and Signals Notes}}
+\author{Strahinja Marinkovic}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Signals and Systems}
+\input{chapters/chapter1/chapter1.tex}
+
+\chapter{Time-Domain Analysis of Continuous-Time Systems}
+\input{chapters/chapter2/chapter2.tex}
+
+\chapter{Additional Notes}
+\input{chapters/additional_notes.tex}
+
+\end{document}
